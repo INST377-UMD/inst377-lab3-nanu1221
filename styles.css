@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0c4a67;
+}
+
+
+.header-footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Change text to white */
+    padding: 10px;
+    background-color: blue; /* Keep background blue */
+    border-radius: 3px;
+}
+
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rules-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+aside {
+    width: 25%; /* Make it smaller */
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px auto; /* Center it */
+    text-align: left;
+}
+
+aside:hover {
+    background-color: #a41d32;
+}
+
+form label, form select, form input, form button {
+    display: block;
+    margin: 10px auto;
+}
+
+#name {
+    transition: width 0.3s ease-in-out;
+    width: 150px;
+}
+
+#name:focus {
+    width: 200px;
+}
